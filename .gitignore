@@ -37,3 +37,11 @@ token.json
 .DS_Store
 .idea/
 .vscode/
+
+# Runtime credentials and environment variants (keep values out of Git).
+*.env
+*.env.*
+!.env.example
+![!.]*.env.example
+![!.]*.env.sample
+![!.]*.env.template

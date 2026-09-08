@@ -35,3 +35,10 @@ token.json
 *.db
 *.log
 .DS_Store
+
+# Keep runtime environment files out of every Docker build context.
+**/.env
+**/.env.*
+**/*.env
+**/*.env.*
+!.env.example
